@@ -1,10 +1,11 @@
-SELECT * FROM artistas
-select count(*) as total_artistas from artistas
-SELECT nome, genero_musical FROM artistas
+SELECT * FROM avioes_militares;
 
-SELECT nome, genero_musical FROM artistas
-WHERE pais_origem = 'Brasil'
-SELECT nome, genero_musical FROM artistas
-WHERE pais_origem = 'Brasil'
-SELECT nome, genero_musical FROM artistas
-WHERE id = 9 AND id = 5
+SELECT COUNT(*) AS total_avioes FROM avioes_militares;
+
+SELECT nome, pais_origem FROM avioes_militares;
+
+SELECT nome, pais_origem FROM avioes_militares
+WHERE pais_origem = 'Estados Unidos';
+
+SELECT nome, pais_origem FROM avioes_militares
+WHERE id IN (5, 9);
