@@ -44,8 +44,5 @@ VALUES
 ('TestAccount2', 'test2@email.com', 0, '2024-03-18'),
 ('AdminTest', 'admin@email.com', 0, '2024-03-20');
 
-UPDATE usuarios  SET pontos = pontos + 1000
-
-UPDATE usarios SET email = "master@gmail.com" WHERE email = "main@email.com"
 -- Dados iniciais -- Usários
 ```
